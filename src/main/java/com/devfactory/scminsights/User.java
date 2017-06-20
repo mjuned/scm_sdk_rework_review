@@ -1,11 +1,10 @@
 package com.devfactory.scminsights;
 
 public class User {
-
     private String firstName;
     private String lastName;
     private Integer age;
-
+    private String address;
     public String getFirstName() {
         return firstName;
     }
@@ -30,5 +29,11 @@ public class User {
         this.age = age;
     }
 
+	public String getAddress() {
+		return address;
+	}
 
+	public void setAddress(String address) {
+		this.address = address;
+	}
 }
