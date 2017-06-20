@@ -8,7 +8,7 @@ package com.devfactory.scminsights;
  * @since 2016-12-24
  *
  */
-public interface Constants {
+public interface ProjectConstants {
 
 	/**
 	 * Constants for endpoint.
@@ -36,10 +36,5 @@ public interface Constants {
 	/**
 	 * airport file word separator.
 	 */
-	public static final String WORD_SEPARATOR = ",";
-
-	/**
-	 * Total field length in dat file.
-	 */
-	public static final short TOTAL_FIELD_LENGTH = 11;
+	public static final String WORD_SEPARATOR = ",";	
 }

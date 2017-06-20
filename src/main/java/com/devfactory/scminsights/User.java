@@ -5,6 +5,8 @@ public class User {
     private String lastName;
     private Integer age;
     private String address;
+    private Float height;
+    
     public String getFirstName() {
         return firstName;
     }
@@ -35,5 +37,13 @@ public class User {
 
 	public void setAddress(String address) {
 		this.address = address;
+	}
+
+	public Float getHeight() {
+		return height;
+	}
+
+	public void setHeight(Float height) {
+		this.height = height;
 	}
 }
